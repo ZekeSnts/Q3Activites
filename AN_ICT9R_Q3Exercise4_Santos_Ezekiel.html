@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Babylonica&family=Montserrat&family=Playfair+Display&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap" rel="stylesheet">
+	<style type="text/css">
+	h1,h2,h3{
+		font-family: Babylonica;
+		text-align: center;
+	}
+	p, td{
+		font-family: Playfair Display ;
+	}
+	img{
+		height: 140px;
+		width: 120px;
+	}
+	body{
+		background-image: url(https://i.pinimg.com/originals/57/b3/a2/57b3a22e30071aaa3825079c1320f198.jpg);
+		background size: cover;
+		color: white;
+	}
+	</style>
+	<title>Q3 Exercise 4</title>
+</head>
+<body>
+	<div class="container">
+			<h1>Hogwarts School of Witchcraft and Wizardry</h1>
+				<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<a class="navbar-brand text-light" style="font-family: Playfair Display; font-size: 30px;"> Website Name</a>
+			<ul class="navbar-nav">
+				<li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">ABOUT US</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">CONTACT US</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">CONTACT US</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">CONTACT US</a></li>
+			</ul>
+			<form class="form-inline my-2 my-lg-0">
+				<input type="Search" name="search" placeholder="type keyword" class="form-control mr-sm-2">
+				<button class="btn btn-success my-2 mr-sm-0">SEARCH</button>
+			</form>
+		</nav>
+	<table class="table table-bordered table-dark table-hover">
+		<tr>
+			<th>Profile</th>
+			<th>Firstname</th>
+			<th>Lastname</th>
+			<th>House</th>
+		</tr>
+		<tr>
+			<td><img src="https://pbs.twimg.com/profile_images/1421159019809546242/qfoVaH_O_400x400.jpg" class="rounded"></td>
+			<td>Cedric</td>
+			<td>Diggory</td>
+			<td>Hufflepuff</td>
+		</tr>
+		<tr>
+			<td><img src="https://static.wikia.nocookie.net/characters/images/a/a5/Latest_%2810%29.jpg/revision/latest/scale-to-width-down/1200?cb=20141230074301" class="rounded"></td>
+			<td>Hermione</td>
+			<td>Granger</td>
+			<td>Gryffindor</td>
+		</tr>
+		<tr>
+			<td><img src="http://sev.h-cdn.co/assets/15/44/640x480/sd-aspect-1446218645-ron-weasley.jpg" class="rounded"></td>
+			<td>Ronald</td>
+			<td>Weasley</td>
+			<td>Gryffindor</td>
+		</tr>
+		<tr>
+			<td><img src="https://api.time.com/wp-content/uploads/2014/07/301386_full1.jpg" class="rounded"></td>
+			<td>Harry</td>
+			<td>Potter</td>
+			<td>Gryffindor</td>
+		</tr>
+	</table>
+	<h1>Enrolling Students</h1>
+	</div>
+	<div class="container bg-dark text-light">
+	<form class="form-group">
+		<div class="checkbox">
+			<input type="checkbox" name="old">OLD STUDENT
+		</div>
+		<div class="checkbox">
+			<input type="checkbox" name="new">NEW STUDENT
+		</div>
+		Enter Firstname: <input type="text" name="firstname" class="form-control">
+		Enter Lastname: <input type="text" name="lastname" class="form-control">
+		Choose House:
+		<select class="form-control">
+			<option>Gryffindor</option>
+			<option>Hufflepuff</option>
+			<option>Slytherin</option>
+			<option>Ravenclaw</option>
+		</select>
+		<br>
+		Date Enrolled
+		<input type="date" name="enrolled" class="form-control">
+		Upload Profile Pictue
+		<input type="file" name="picture" class="form-control">
+
+		<input type="submit" value="ADD STUDENT" class="btn btn-success btn-block">
+		<input type="reset" value="CANCEL" class="btn btn-danger btn-block">
+	</form>
+	<h6 class="text-light">References</h6>
+	<a href="https://harrypotter.fandom.com/wiki/Harry_Potter"> Harry Potter Fandom</a>
+	</div>
+</body>
+</html>
